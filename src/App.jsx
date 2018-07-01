@@ -12,7 +12,6 @@ import HomePage from './pages/HomePage';
 const App = () => {
 	return (
 	  	<div className="App">
-	      <p>App</p>
 	      <Header/>
 	      <HomePage/>
 	    </div>

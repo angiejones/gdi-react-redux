@@ -20,7 +20,6 @@ const FeedList = (props) => {
 	
 	return (
 	  	<div className="FeedList">
-	      <p>Feed List</p>
 	      {pics}
 	    </div>
   );

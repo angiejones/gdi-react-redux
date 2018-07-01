@@ -20,7 +20,7 @@ const FeedItem = (props) => {
 	return (
 	  	<div className="FeedItem">
 	      <p>{title}</p>
-	      <img src={url}/>
+	      <img src={url} style={{width:"100%"}}/>
 	      <Likes quantity={likes} liked={userLiked}/>
 	    </div>
   );

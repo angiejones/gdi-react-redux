@@ -40,7 +40,7 @@
 			"title": "I like humans",
 			"url": "http://forgifs.com/gallery/d/217571-1/Cat-kiss-nuzzle.gif",
 			"likes": 29,
-			"userLiked": false
+			"userLiked": true
 		},
 		{
 			"id": 7,
@@ -61,7 +61,7 @@
 			"title": "I'm the king",
 			"url": "http://i.imgur.com/E2wNiC6.gif",
 			"likes": 69,
-			"userLiked": false
+			"userLiked": true
 		},
 		{
 			"id": 10,

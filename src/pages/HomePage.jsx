@@ -10,19 +10,26 @@
 // Need to extract photos from data and then pass it into HomePage
 
 
+// Exercise 4: Class It Up
+// Turn HomePage from a functional to a class component
+	 // handle import/inheritance
+	 // add a render method
+
+
 import React from 'react';
 import ImageUploaderForm from '../components/ImageUploaderForm';
 import FeedList from '../components/FeedList';
 import data from '../../data.json';
 
-const HomePage = () => {
-	return (
-	  	<div className="HomePage">
-	      <p>HomePage</p>	      
-	      <ImageUploaderForm/>
-	      <FeedList pics={data.photos}/>
-	    </div>
-  );
+class HomePage extends React.Component {
+	render(){
+		return (
+		  	<div className="HomePage">      
+		      <ImageUploaderForm/>
+		      <FeedList pics={data.photos}/>
+		    </div>
+	  );
+	}
 }
 
 export default HomePage

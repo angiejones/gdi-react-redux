@@ -5,7 +5,7 @@
 			"title": "Too cool for school",
 			"url": "https://media.giphy.com/media/5gXYzsVBmjIsw/giphy.gif",
 			"likes": 305,
-			"userLiked": false
+			"userLiked": true
 		},
 		{
 			"id": 2,
@@ -26,7 +26,7 @@
 			"title": "Durr, Bark woof",
 			"url": "https://i.imgur.com/mr4egM3.gif",
 			"likes": 49,
-			"userLiked": false
+			"userLiked": true
 		},
 		{
 			"id": 5,
@@ -65,7 +65,7 @@
 		},
 		{
 			"id": 10,
-			"title": "I'm the king",
+			"title": "Tricky climb",
 			"url": "http://i.imgur.com/72zRVtC.gif",
 			"likes": 89,
 			"userLiked": false

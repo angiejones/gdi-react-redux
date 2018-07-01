@@ -1,10 +1,23 @@
 import React from 'react';
-import Header from './components/Header.jsx';
-import HomePage from './pages/HomePage.jsx';
+import Header from './components/Header';
+import HomePage from './pages/HomePage';
 
 // Exercise 2: Set It Up
 // write a functional component
-// make it a div with a class name of App
 // import Header and Hompage
-// include them inside of App
+// make it a div with a class name of App
+// include Header and HomePage inside of App
 // export the App component!
+
+const App = () => {
+	return (
+	  	<div className="App">
+	      <p>App</p>
+	      <Header/>
+	      <HomePage/>
+	    </div>
+  );
+}
+
+export default App
+
